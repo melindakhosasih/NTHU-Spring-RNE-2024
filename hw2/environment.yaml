@@ -1,0 +1,15 @@
+name: rne_hw2
+channels:
+  - pytorch
+  - nvidia
+  - defaults
+dependencies:
+  - python=3.9
+  - pytorch
+  - pytorch::pytorch-cuda=11.8
+  - matplotlib
+  - tqdm
+  - cloudpickle
+  - pip:
+    - opencv-python
+    - gym
